@@ -1,0 +1,73 @@
+/*Setting the background for the Page Header section*/
+.pageheader {
+background-image: url("images/grass4.png");
+background-repeat:no-repeat;
+background-size: cover;
+min-height: 5vh;
+width: 100%;
+vertical-align: top;
+float: left;
+}
+/*Setting the format for the Page Title*/
+.pagetitle {
+    margin-left: 200px;
+    font-size: 75px;
+    color: white;
+    margin-top: 18px;
+}
+/*Setting margin for the body*/
+body {
+    margin: 0;
+    padding: 0;
+}
+/*Styling the topnav section*/
+.topnav {
+    background-color: rgb(66, 66, 66);
+    overflow: hidden;
+    height: 80px;
+    margin-top: -7px;
+}
+
+.topnav a {
+    color: white;
+    padding: 30px 34px;
+    float: left;
+    text-align: center;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+.topnav a.active {
+    background-color: black;
+}
+
+.newsSection {
+    background-color: white;
+    margin-left: 150px;
+    margin-top: 100px;
+    margin-right: 150px;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+}
+
+.newsHeader {
+    height: 50px;
+    width: 150px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: rgb(133, 133, 133);
+}
+
+.news1 {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.news1P {
+    margin-left: 20px;
+    margin-top: 20px;
+}
